@@ -53,11 +53,15 @@ table {
 /*Navigation Section*/
 .top-navigation{
 	background-color:#fff;
+	position:fixed;
+	with: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width; 970px;
 	height: 70px;
 	margin: 0 auto
+
 }
 .top-navigation .logo{
 	height: 70px;
@@ -74,7 +78,8 @@ table {
     display: inline-block;
     margin-left: 25px;
 }
-.top-navigation .links .active {
+.top-navigation .links 
+.active {
     color: #4c5058;
     font-weight: 500;
 }
@@ -85,10 +90,37 @@ table {
 
 
 .introduction {
-	background image: url('../img/first-background.png');
+	background-image: url('../img/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 45.938rem;
+	height: 20rem;
 
 }
+.introduction .content{
+	color:white;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.buttons{
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding:26px 26px;
+	line-height:1.33;
+	background-color: ;
+}
+.cases .devices {
+     width:33.333333%;
+     display: inline-block;
+     border: 1px solid black;
+     box-sizing: border-box;
+     height 4em;
+}
+.devices{
+	width:10px
+	height:10px
+}
+.devices{float:left;
+margin-bottom: 40px}
